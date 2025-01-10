@@ -119,6 +119,15 @@ section {
     margin-bottom: 40px;
 }
 
+.section-dis{
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 32px;
+}
+
 .pillars {
 
     display: flex;
@@ -288,12 +297,12 @@ table tbody td {
 
 /* News Section */
 
-.news-section{
+.news-section {
     display: flex;
     flex-direction: column;
     gap: 32px;
 
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 .news-box1 {
@@ -307,7 +316,7 @@ table tbody td {
     border-radius: 24px;
 }
 
-.news-box2{
+.news-box2 {
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -362,7 +371,7 @@ table tbody td {
     text-align: left;
     overflow: hidden;
 
-    margin: 15px 0px;
+    margin: 10px 0px;
 
 }
 
@@ -376,3 +385,60 @@ table tbody td {
     font-size: 16px;
     font-weight: 600;
 }
+
+.n-btn:hover{
+    
+    background: rgb(1, 155, 116);
+
+}
+
+
+/* Donate Section Style */
+
+.section5{
+    text-align: center;
+}
+
+.donate-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.d-amount {
+    background-color: white;
+    padding: 25px 50px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+.d-amount:hover {
+    background-color: rgb(198, 228, 214);
+    font-size: 50px;
+  }
+
+  .custom-donate{
+    height: 65px;
+    margin-bottom: 70px;
+  }
+
+  #donate{
+    width: 85%;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 32px 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #donate:hover {
+    width: 95%;
+    background-color: rgb(198, 228, 214);
+    font-size: 20px;
+  }

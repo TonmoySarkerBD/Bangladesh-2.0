@@ -215,12 +215,12 @@ section {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    padding-top: 25px ;
+    padding-top: 25px;
     margin-bottom: 12px;
 
 }
 
-.quote-content{
+.quote-content {
     background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
@@ -238,5 +238,50 @@ section {
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
+    text-align: left;
+}
+
+/* Section 3 Your Opinion  */
+
+.opinion-table {
+    background-color: white;
+    text-align: center;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+}
+
+table td {
+    padding: 15px;
+}
+
+table thead td {
+    background: rgb(198, 228, 214);
+    border: 1px solid rgb(198, 228, 214);
+
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table tbody td {
+    color: #636363;
+    border: 1px solid #dddfe1;
+}
+
+.table-btn {
+    background-color: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgb(14, 14, 14);
+}
+
+.td1 {
     text-align: left;
 }

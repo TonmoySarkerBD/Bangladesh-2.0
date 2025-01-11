@@ -173,6 +173,7 @@ section {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin: 20px 0px;
 }
 
 
@@ -185,8 +186,8 @@ section {
 }
 
 .vission-img {
-    width: 256px;
-    height: 256px;
+    width: 192px;
+    height: 192px;
 }
 
 .vision1 {
@@ -490,8 +491,9 @@ table tbody td {
 }
 
 #subscribe {
-    width: 80%;
-    text-align: center;
+    width: 40%;
+    text-align: left;
+    padding-left: 20px;
     border: none;
     border-radius: 8px 0px 0px 8px;
 }

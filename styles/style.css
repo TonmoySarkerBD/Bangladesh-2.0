@@ -10,7 +10,11 @@
 /* Common Styles */
 
 body {
-    background-color: rgb(141, 135, 135);
+    background: rgb(245, 245, 245);
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn {
@@ -470,6 +474,7 @@ table tbody td {
     padding: 15px 30px;
     border: none;
     border-radius: 0px 8px 8px 0px;
+    color: white;
     background: rgb(0, 106, 80);
 }
 
@@ -485,4 +490,42 @@ table tbody td {
     text-align: center;
     border: none;
     border-radius: 8px 0px 0px 8px;
+}
+
+
+/* Footer Style */
+
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+footer a{
+    color: rgb(14, 14, 14);
+}
+
+.footer-content {
+    padding: 50px 500px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+footer hr {
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 0px 0px;
+    margin: 20px;
 }
